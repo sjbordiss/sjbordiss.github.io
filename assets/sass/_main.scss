@@ -1,0 +1,79 @@
+// IMPORT FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Noto+Serif:wght@400;700&display=swap');
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Noto Serif', serif;
+
+// BASE STYLES
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: #4b6374; /*background:#f5f5f5;*/
+}
+strong,
+b {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+ul ul {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+}
+a {
+  color: orange;
+  border-bottom: 1px dotted orange;
+  text-decoration: none;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+a:hover {
+  border-bottom: 1px solid #115069;
+  color: #115069;
+}
+
+// HEADER
+
+// Demo of using media queries inline with a class style
+body {
+  border: 5px solid green;
+  @media (max-width: 1024px) {
+    border-color: orange;
+  }
+  @media (max-width: 768px) {
+    border-color: red;
+  }
+}
+
+.primary-navigation {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    li {
+      a {
+        display: block;
+      }
+    }
+  }
+}
+
+// FOOTER
