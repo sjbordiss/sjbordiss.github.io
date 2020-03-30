@@ -11,6 +11,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  background: #F5F1E3;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -22,14 +25,7 @@ body {
   color: #4b6374;
   height: 100vh;
   min-height: 100vh;
-  background: #ffffff;/* Old Browsers */
-  background: -moz-linear-gradient(top, #ffffff 0%, #cfdae1 100%); /* FF3.6+ */
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #cfdae1));/* Chrome, Safari4+ */
-  background: -webkit-linear-gradient(top, #ffffff 0%, #cfdae1 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #ffffff 0%, #cfdae1 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #ffffff 0%, #cfdae1 100%); /* IE 10+ */
-  background: linear-gradient(to bottom, #ffffff 0%, #cfdae1 100%);/* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfdae1', GradientType=0 );/* IE6-9 */
+  background: #F5F1E3;
 }
 p {
   font-size:1rem;
